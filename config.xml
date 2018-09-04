@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Config>
+    <RegularExpression>\[[\s]{0,4}(\d+.\d+).+AvgVbat=\(([\d]{4}),.+AvgI=\(-?([\d]{1,4}),.+AvgT=\(-?([\d]{1,2}),.+UI_SOC=([\d]{1,3}),</RegularExpression>
+    <Record>
+        <Name>time</Name>
+        <Sequence>1</Sequence>
+        <PlotSwitch>1</PlotSwitch>
+    </Record>
+    <Record>
+        <Name>voltage</Name>
+        <Sequence>2</Sequence>
+        <PlotSwitch>1</PlotSwitch>
+    </Record>
+    <Record>
+        <Name>current</Name>
+        <Sequence>3</Sequence>
+        <PlotSwitch>1</PlotSwitch>
+    </Record>
+    <Record>
+        <Name>temperature</Name>
+        <Sequence>4</Sequence>
+        <PlotSwitch>1</PlotSwitch>
+    </Record>
+    <Record>
+        <Name>level</Name>
+        <Sequence>5</Sequence>
+        <PlotSwitch>1</PlotSwitch>
+    </Record>
+</Config>
